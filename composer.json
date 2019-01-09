@@ -29,6 +29,12 @@
     "require-dev": {
         "webflo/drupal-core-require-dev": "^8.6.0"
     },
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "git@github.com:oromix/drupal-project.git"
+      }
+    ],
     "conflict": {
         "drupal/drupal": "*"
     },
